@@ -1,0 +1,36 @@
+.container {
+    margin: 50px auto;
+    width: 500px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textbox {
+    width: 100%;
+    height: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: greenyellow;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.textbox:disabled {
+    background-color: gray;
+}
+
+.btnstart {
+    padding: 5px 20px;
+    font-size: 16px;
+    background-color: greenyellow;
+}
+
+.btnstart:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
